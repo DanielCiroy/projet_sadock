@@ -11,37 +11,20 @@
     <title>formulaire</title>
 
 </head>
-
 <body>
-    <section class="contact">
-        <div class="container">
-            <div class="contactform">
-                <form action="traitement_inscription.php" methode="POST">
-                    <h2>inscription</h2>
-                    <div class="inputbox">
-                        <input type="text" name="nom" required="required">
-                        <span>nom</span>
-                    </div>
-                    <div class="inputbox">
-                        <input type="text" name="prenom" required="required">
-                        <span>prenom</span>
-                    </div>
-                    <div class="inputbox">
-                        <input type="email" name="email" required="required">
-                        <span>email</span>
-                    </div>
-                    <div class="inputbox">
-                        <input type="password" name="mdp" required="required">
-                        <span>mot de pass</span>
-                    </div>
-                    <div class="inputbox">
-                        <input type="submit" value="m'inscrire" name="inscrit">
-                    </div>
-                </form>
-            </div>
-        </div>
+    <section>
+        <h1>inscription</h1>
+        <form action="traitement_inscription.php" method="POST">
+            <label>nom</label>
+            <input type="text" name="nom">
+            <label>prenom</label>
+            <input type="text" name="prenom">
+            <label>email</label>
+            <input type="text" name="email">
+            <label>mot de pass</label>
+            <input type="password" name="mdp">
+            <input type="submit" value="m'inscrire" name="ok">
+        </form>
     </section>
-
 </body>
-
 </html>
