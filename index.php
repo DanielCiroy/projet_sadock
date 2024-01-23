@@ -18,7 +18,7 @@
     <header>
         <div class="navbar">
             <div class="logo">
-                <a href="#">webCreative</a>
+                <a href="#">Initelematique</a>
             </div>
             <div class="bouton">
                 <a href="inscription/inscription.php" class="action-btn">inscription</a>
@@ -29,10 +29,12 @@
     <section class="presents">
         <div class="texte">
             <h2>Des cours 100% en ligne et un modèle pédagogique unique qui seront les clés de votre réussite.</h2>
+            <a href="#" class="action-btn2">connectez vous pour voir les cours</a>
         </div>
         <div class="maphoto">
             <img src="images/img_bg.jpg.png" alt="photo" srcset="" width="100%">
         </div>
+        
     </section>
     <section class="container-fluid bg-light my-5">
         <div class="container">
@@ -78,6 +80,10 @@
             </div>
         </div>
     </section>
+
+    <?php
+    include_once('footer.html');
+    ?>
 
 
 
