@@ -36,14 +36,14 @@
         </div>
         
     </section>
-    <section class="container-fluid bg-light my-5">
+    <section class="container-fluid bg-light ">
         <div class="container">
             <h2 class="text-center pt-5 pb-2">ce que vous propose Initelematique open line</h2>
             <p class="text-center pb-5">Avec Initelematique open line, découvrez une nouvelle façon d'apprendre : votre reussite c'est notre devoir</p>
             <div class="row g-5">
                 <div class="col-12 col-md-4">
                     <div class="block-card">
-                        <div class="image">
+                        <div class="image col-12 col-md-4">
                             <img src="images/img_bg.jpg.png" alt="" srcset="">
                         </div>
                         <div class="boc-text">
