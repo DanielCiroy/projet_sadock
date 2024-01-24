@@ -64,9 +64,32 @@ header {
     text-decoration: none;
 }
 
+.bouton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
+}
 
-.bouton .action-btn {
+.connect {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.bouton .action-btn:hover,
+.action-btn-connect:hover {
+    color: rgb(6, 19, 53);
+    color: #fff;
+    transition: 0.3s all;
+    border-bottom: 3px solid orangered;
+}
+
+.bouton .action-btn,
+.action-btn-connect {
     color: #fff;
     background-color: rgb(2, 2, 87);
     padding: 0.5rem 1rem;
@@ -77,6 +100,20 @@ header {
     font-weight: bold;
     outline: none;
 }
+
+
+.action-btn-connect2 {
+    color: rgb(6, 19, 53);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 20px;
+    font-size: 0.2 rem;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+
 
 .presents {
     width: 100%;

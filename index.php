@@ -22,7 +22,10 @@
             </div>
             <div class="bouton">
                 <a href="inscription/inscription.php" class="action-btn">inscription</a>
-                <a href="#" class="action-btn">connexion</a>
+               <div class="connect">
+                 <a href="#" class="action-btn-connect fs-md-1">connexion</a>
+                 <a href="#" class="action-btn-connect2"><i class="fa-solid fa-user"></i> Admin</a>
+               </div> 
             </div>
         </div>
     </header>
@@ -95,8 +98,8 @@
 
 
 
-    <script src="port.js">
-    </script>
+    <script src="js/bootstrap.bundle.min.js"> </script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
