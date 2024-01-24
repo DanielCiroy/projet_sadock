@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>document</title>
+    <title>Document</title>
 </head>
 
 <body>
@@ -13,6 +14,9 @@
         <div class="navbar">
             <div class="logo">
                 <a href="index.php">Initelematique</a>
+            </div>
+            <div class="bouton">
+                <a href="#" class="action-btn">Deconnexion</a>
             </div>
         </div>
     </header>

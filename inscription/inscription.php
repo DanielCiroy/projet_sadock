@@ -14,7 +14,7 @@
 </head>
 <body>
     <?php
-       include_once('../header_no_btn.html');
+       include_once('../header_no_btn.php');
     ?>
     <div class="header">
     <section>
@@ -35,7 +35,7 @@
    
 
       <?php
-      include_once('../mini_footer.html');
+      include_once('../mini_footer.php');
         ?>
 
     
