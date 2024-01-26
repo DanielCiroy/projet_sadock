@@ -1,3 +1,14 @@
+
+<?php
+  session_start();
+  if(!$_SESSION['mdpass']){
+    header('location:admin.php');
+  }
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -56,7 +67,7 @@
                 <a href="index.php">Initelematique</a>
             </div>
             <div class="bouton  ">
-                <a href="inscription/inscription.php" class="action-btn">Etudiants</a>
+                <a href="etudiants.php" class="action-btn">Etudiants</a>
                 <div class="connect">
                     <a href="#" class="action-btn-connect fs-md-1">cours</a>
                 </div>

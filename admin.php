@@ -1,4 +1,5 @@
 <?php
+session_start();
 if(isset($_POST['ok'])){
     if(!empty($_POST['nom'])&& !empty($_POST['mdpass'])){
        $nom_par_defaut='admin';
@@ -8,17 +9,18 @@ if(isset($_POST['ok'])){
        $mdpass_saisi=$_POST['mdpass'];
 
        if($nom_par_defaut==$nom_saisi && $mdpass_par_defaut==$mdpass_saisi){
-        echo'correct';
+         $_SESSION['mdpass']=$mdpass_saisi;
+         header('location:accueilAdmin.php');
        }
        else{
         echo'mot de pass ou nom incorrect';
        }
     }
     else{
-        echo'nom ou mot de pass incorrect';
+        echo'remplissez tout les champs';
     }
 }
-echo'erreur';
+
 
 
 ?>
