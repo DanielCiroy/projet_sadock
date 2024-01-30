@@ -67,7 +67,7 @@
                 <a href="index.php">Initelematique</a>
             </div>
             <div class="bouton  ">
-                <a href="gestion_etudiants/index.php" class="action-btn">Etudiants</a>
+                <a href="gestion_des_eleves/index.php" class="action-btn">Etudiants</a>
                 <div class="connect">
                     <a href="#" class="action-btn-connect fs-md-1">cours</a>
                 </div>
