@@ -1,12 +1,5 @@
 
-<?php
-  session_start();
-  if(!$_SESSION['mdpass']){
-    header('location:admin.php');
-  }
 
-
-?>
 
 
 <!DOCTYPE html>
@@ -67,9 +60,9 @@
                 <a href="index.php">Initelematique</a>
             </div>
             <div class="bouton  ">
-                <a href="gestion_des_eleves/index.php" class="action-btn">Etudiants</a>
+                <a href="gestion_des_eleves/index.php" class="action-btn">cours videos</a>
                 <div class="connect">
-                    <a href="gestion_cours/index.php" class="action-btn-connect fs-md-1">cours</a>
+                    <a href="#" class="action-btn-connect fs-md-1">cours PDF</a>
                 </div>
                 <a href="index.php" class="deconnectAdmin">deconnexion</a>
             </div>
@@ -77,6 +70,7 @@
     </header>
     <section class=" presents">
         <div class="texte">
+            <h1>Bienvenu sur Initelematique open line!</h1>
             <h2>Des cours 100% en ligne et un modèle pédagogique unique qui seront les clés de votre
                 réussite.</h2>
         </div>

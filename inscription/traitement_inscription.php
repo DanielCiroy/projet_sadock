@@ -33,6 +33,8 @@ if(isset($_POST['ok'])){
     $recupetudiant=$bdd->prepare("SELECT * FROM etudiants WHERE nom=? AND prenom=? AND email=? AND mdp=?");
     $recupetudiant->execute(array($nom,$prenom,$email,$mdp));
 
+    
+
     // declaration des session et recuperation des info
     if($recupetudiant->rowCount()>0){
         $_SESSION['nom']=$nom;
@@ -40,9 +42,12 @@ if(isset($_POST['ok'])){
         $_SESSION['email']=$email;
         $_SESSION['mdp']=$mdp;
         $_SESSION['id']=$recupetudiant->fetch()['id'];
-    }
 
-    echo'vous etes bien mr '.$_SESSION['nom'].' et votre id est '.$_SESSION['id'];
+        header('location: ../accueilUser.php');
+    }
+   
+
+   
 
 }
 
