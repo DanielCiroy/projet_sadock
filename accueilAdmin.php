@@ -69,7 +69,7 @@
             <div class="bouton  ">
                 <a href="gestion_des_eleves/index.php" class="action-btn">Etudiants</a>
                 <div class="connect">
-                    <a href="gestion_cours/index.php" class="action-btn-connect fs-md-1">cours</a>
+                    <a href="gestion_des_cours/index.php" class="action-btn-connect fs-md-1">cours</a>
                 </div>
                 <a href="index.php" class="deconnectAdmin">deconnexion</a>
             </div>
