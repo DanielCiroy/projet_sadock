@@ -24,7 +24,7 @@
             <div class="bouton">
                 <a href="inscription/inscription.php" class="action-btn">inscription</a>
                <div class="connect">
-                 <a href="connexion/connexion.php" class="action-btn-connect fs-md-1">connexion</a>
+                 <a href="connexion/index.php" class="action-btn-connect fs-md-1">connexion</a>
                  <a href="admin.php" class="action-btn-connect2"><i class="fa-solid fa-user"></i> Admin</a>
                </div> 
             </div>

@@ -1,10 +1,12 @@
 
 
-
+<?php 
+//On demare la session sur sur cette page 
+session_start() ;
+?>
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -70,7 +72,10 @@
     </header>
     <section class=" presents">
         <div class="texte">
-            <h1>Bienvenu sur Initelematique open line!</h1>
+         <?php
+                //Ensuite on affiche le contenu de la variable session
+                echo "<p class ='message'> Bonjour " .  $_SESSION['email'] . "</p>";   
+         ?>
             <h2>Des cours 100% en ligne et un modèle pédagogique unique qui seront les clés de votre
                 réussite.
             </h2>
