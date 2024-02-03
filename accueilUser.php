@@ -57,12 +57,12 @@
     <header>
         <div class="navbar">
             <div class="logo">
-                <a href="index.php">Initelematique</a>
+                <a href="#">Initelematique</a>
             </div>
             <div class="bouton  ">
-                <a href="gestion_des_eleves/index.php" class="action-btn">cours videos</a>
+               
                 <div class="connect">
-                    <a href="#" class="action-btn-connect fs-md-1">cours PDF</a>
+                    <a href="#" class="action-btn-connect fs-md-1">cours</a>
                 </div>
                 <a href="index.php" class="deconnectAdmin">deconnexion</a>
             </div>
@@ -72,7 +72,9 @@
         <div class="texte">
             <h1>Bienvenu sur Initelematique open line!</h1>
             <h2>Des cours 100% en ligne et un modèle pédagogique unique qui seront les clés de votre
-                réussite.</h2>
+                réussite.
+            </h2>
+            <a href="#" class="action-btn2"> voir les cours</a>
         </div>
         <div class="maphoto">
             <img src="images/img_bg.jpg.png" alt="photo" srcset="" width="100%">

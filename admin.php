@@ -24,7 +24,6 @@ if(isset($_POST['ok'])){
 
 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,9 +50,6 @@ if(isset($_POST['ok'])){
     </div>
       <?php
       include_once('mini_footer.php');
-      ?>
-
-    
+      ?> 
 </body>
-
 </html>

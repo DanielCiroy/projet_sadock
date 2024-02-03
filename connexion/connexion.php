@@ -24,7 +24,7 @@
     <div class="header">
     <section>
         <h1>connexion</h1>
-        <form action="traitement_inscription.php" method="POST">
+        <form action="traitement_connexion.php" method="POST">
             <label>email</label>
             <input type="text" name="email">
             <label>mot de pass</label>

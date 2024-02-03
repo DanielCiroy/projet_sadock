@@ -1,5 +1,6 @@
 
 <?php
+session_start();
  $servername="localhost";
  $serverlog="root";
  $serverpass="";
@@ -15,6 +16,33 @@
      echo'ERREUR'.$e->getMessage();
   }
 
+  if(isset($_POST['connexion'])){
+    $email=$_POST['email'];
+    $mdp=$_POST['mdp'];
+
+    $recupUser= $bdd->prepare("SELECT FROM etudiants WHERE $email=? && $mdp=?");
+    $recupUser->execute(array($email ,$mdp));
+    if($recupUser->rowCount()>0){
+      $_SESSION['email']=$email;
+      $_SESSION['mdp']=$mdp;
+      $_SESSION['id']= $recupUser->fetch()['id'];
+      echo $_SESSION['id'];
+      header('../accueilUser.php');
+
+
+    }else{
+      echo'votre mot de pass ou pseudo est incorrect';
+    }
+
+
+
+
+  }
+
+ 
+
+
+  
 
 
 
