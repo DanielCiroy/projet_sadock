@@ -13,9 +13,13 @@
 
 </head>
 <body>
-    <?php
-       include_once('../header_no_btn.php');
-    ?>
+       <div class="navbar">
+            <div class="logo">
+              <a href="../index.php">Initelematique</a>
+            </div>
+        </div>
+     
+    
     <div class="header">
     <section>
         <h1>inscription</h1>
