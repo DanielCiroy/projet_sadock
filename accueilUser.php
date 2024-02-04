@@ -52,6 +52,10 @@ session_start() ;
         .deconnectAdmin:hover{
             color:#fff;
         }
+        
+     .message {
+    font-size: 25px;
+     }
     </style>
 </head>
 
@@ -64,7 +68,7 @@ session_start() ;
             <div class="bouton  ">
                
                 <div class="connect">
-                    <a href="#" class="action-btn-connect fs-md-1">cours</a>
+                    <a href="cours/cours.php" class="action-btn-connect fs-md-1">cours</a>
                 </div>
                 <a href="index.php" class="deconnectAdmin">deconnexion</a>
             </div>
@@ -76,7 +80,8 @@ session_start() ;
                 //Ensuite on affiche le contenu de la variable session
                 echo "<p class ='message'> Bonjour " .  $_SESSION['email'] . "</p>";   
          ?>
-            <h2>Des cours 100% en ligne et un modèle pédagogique unique qui seront les clés de votre
+            
+            <h2>Bienvenu(e) sur Initelematique Open line!! </br>  Des cours 100% en ligne et un modèle pédagogique unique qui seront les clés de votre
                 réussite.
             </h2>
             <a href="#" class="action-btn2"> voir les cours</a>

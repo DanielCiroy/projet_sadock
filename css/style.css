@@ -258,3 +258,8 @@ header {
 .logo a {
     text-decoration: none;
 }
+
+.message {
+    color: #fff;
+    font-size: 25px;
+}
