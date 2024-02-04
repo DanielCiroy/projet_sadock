@@ -22,7 +22,8 @@
     
     <div class="header">
     <section>
-        <h1>inscription</h1>
+    <a href="../index.php" class="Back_btn"><img src="../gestion_des_eleves/images/back.png" alt="">Retour</a>
+        <h2>inscription</h2>
         <form action="traitement_inscription.php" method="POST">
             <label>nom</label>
             <input type="text" name="nom">

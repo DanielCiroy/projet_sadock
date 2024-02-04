@@ -36,22 +36,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulaire de connexion</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
 </head>
 <body>
-   <section>
-       <h1> Connexion</h1>
-       <?php 
-       if(isset($erreur)){// si la variable $erreur existe , on affiche le contenu ;
-           echo "<p class= 'Erreur'>".$erreur."</p>"  ;
-       }
-       ?>
-       <form action="" method="POST">  <!--on ne mets plus rien au niveau de l'action , pour pouvoir envoyé les données  dans la même page -->
-           <label>Adresse Mail</label>
-           <input type="text" name="email">
-           <label >Mots de Passe</label>
-           <input type="password" name="mdp">
-           <input type="submit" value="Valider" name="boutton-connexion">
+        <div class="navbar">
+            <div class="logo">
+              <a href="../index.php">Initelematique</a>
+            </div>
+        </div>
+  
+        <header class="header">
+        <section>
+        <a href="../index.php" class="Back_btn"><img src="../gestion_des_eleves/images/back.png" alt="">Retour</a>
+       <h2> Connexion</h2>
+            <?php 
+            if(isset($erreur)){// si la variable $erreur existe , on affiche le contenu ;
+                echo "<p class= 'Erreur'>".$erreur."</p>"  ;
+            }
+            ?>
+            <form action="" method="POST">  <!--on ne mets plus rien au niveau de l'action , pour pouvoir envoyé les données  dans la même page -->
+                <label>Adresse Mail</label>
+                <input type="text" name="email">
+                <label >Mots de Passe</label>
+                <input type="password" name="mdp">
+                <input type="submit" value="connexion" name="boutton-connexion">
        </form>
-   </section> 
+       </section> 
+        </header>
+        
+      <?php
+      include_once('../mini_footer.php');
+        ?>
+
 </body>
 </html>

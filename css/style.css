@@ -29,18 +29,12 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: rgb(6, 19, 53);
-    transition: 0.3s all;
-    border-bottom: 3px solid orangered;
-}
 
 header {
     position: relative;
     padding: 0 2rem;
     background: rgb(246, 235, 235);
     border-bottom: 1px solid black;
-
 
 }
 
@@ -257,9 +251,4 @@ header {
 
 .logo a {
     text-decoration: none;
-}
-
-.message {
-    color: #fff;
-    font-size: 25px;
 }

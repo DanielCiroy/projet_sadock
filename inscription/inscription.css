@@ -50,10 +50,32 @@ form input[type='submit'] {
     padding: 6px auto;
     font-weight: 900;
     font-size: 15px;
+    text-transform: uppercase;
 }
 
 
 form label {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 900;
+}
+
+h2 {
+    margin: 10px 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.Back_btn {
+    color: #2bc48a;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.Back_btn img {
+    height: 16px;
+    margin-right: 5px;
 }

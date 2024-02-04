@@ -1,17 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
-body {
+
+.header {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #17f;
+    font-family: poppins, sans-serif;
+    background-color: rgb(134, 186, 255);
 }
+
+
 section {
     background-color: #fff;
     padding: 10px;
@@ -19,36 +24,67 @@ section {
     flex-direction: column;
     width: 400px;
     border-radius: 6px;
+    font-family: poppins, sans-serif;
 }
-section h1 {
+
+section h2 {
+    margin: 10px 0;
+    font-weight: 700;
+    text-transform: uppercase;
     text-align: center;
+    font-size: 30px;
 }
+
 form {
     display: flex;
     flex-direction: column;
 }
-form  input {
+
+form input {
     margin: 5px 0;
     padding: 5px 5px;
     outline: 0;
-    border: 1px solid#000;
     border-radius: 6px;
 
 }
-form  input[type='submit'] {
-    background-color: #17f;
+
+form input[type='submit'] {
+    background-color: rgb(1, 1, 95);
     border: 0;
     color: #fff;
     margin-top: 15px;
-    padding: 6px 0;
-
+    padding: 6px auto;
+    font-weight: 900;
+    font-size: 15px;
+    text-transform: uppercase;
 }
+
 .Erreur {
     color: red;
     margin: 10px 0;
     text-align: center;
 }
+
 .message {
     color: #fff;
     font-size: 25px;
+}
+
+
+form label {
+    font-size: 14px;
+    font-weight: 900;
+}
+
+
+.Back_btn {
+    color: #2bc48a;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.Back_btn img {
+    height: 16px;
+    margin-right: 5px;
 }
