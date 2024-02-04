@@ -36,7 +36,7 @@
             <a href="#" class="action-btn2">connectez vous pour voir les cours</a>
         </div>
         <div class="maphoto">
-            <img src="images/img_bg.jpg.png" alt="photo" srcset="" width="100%">
+            <img src="images/image2.png.svg" alt="photo" srcset="" width="100%">
         </div>
         
     </section>
@@ -48,7 +48,7 @@
                 <div class="col-12 col-md-4">
                     <div class="block-card">
                         <div class="image col-12 col-md-4">
-                            <img src="images/img_bg.jpg.png" alt="" srcset="">
+                            <img src="images/image4.png.svg" alt="" srcset="" width="100%">
                         </div>
                         <div class="boc-text">
                             <h2 class="spend text-center">Apprenez <br />
@@ -60,7 +60,7 @@
                 <div class="col-12 col-md-4">
                     <div class="block-card">
                         <div class="image">
-                            <img src="images/img_bg.jpg.png" alt="" srcset="">
+                            <img src="images/image6.svg" alt="" srcset="">
                         </div>
                         <div class="boc-text">
                             <h2 class="spend text-center">Des cours<br />
@@ -72,7 +72,7 @@
                 <div class="col-12 col-md-4">
                     <div class="block-card">
                         <div class="image">
-                            <img src="images/img_bg.jpg.png" alt="" srcset="">
+                            <img src="images/image3.png.svg" alt="" srcset="">
                         </div>
                         <div class="boc-text">
                             <h2 class="spend text-center">Enseignants<br />

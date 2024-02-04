@@ -157,12 +157,12 @@ header {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    background-color: #daca70;
+
 
 }
 
 .image img {
-    width: 100px;
+    width: 100%;
 }
 
 .boc-text {

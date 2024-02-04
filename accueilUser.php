@@ -63,7 +63,7 @@ session_start() ;
     <header>
         <div class="navbar">
             <div class="logo">
-                <a href="#">Initelematique</a>
+                <a href="index.php">Initelematique</a>
             </div>
             <div class="bouton  ">
                
@@ -78,7 +78,7 @@ session_start() ;
         <div class="texte">
          <?php
                 //Ensuite on affiche le contenu de la variable session
-                echo "<p class ='message'> Bonjour " .  $_SESSION['email'] . "</p>";   
+                echo "<p class ='message'> Bonjour " .  $_SESSION['nom'] . "</p>";   
          ?>
             
             <h2>Bienvenu(e) sur Initelematique Open line!! </br>  Des cours 100% en ligne et un modèle pédagogique unique qui seront les clés de votre
@@ -87,7 +87,7 @@ session_start() ;
             <a href="#" class="action-btn2"> voir les cours</a>
         </div>
         <div class="maphoto">
-            <img src="images/img_bg.jpg.png" alt="photo" srcset="" width="100%">
+            <img src="images/image1.png.svg" alt="photo" srcset="" width="100%">
         </div>
 
     </section>
@@ -101,7 +101,7 @@ session_start() ;
                 <div class="col-12 col-md-4">
                     <div class="block-card">
                         <div class="image col-12 col-md-4">
-                            <img src="images/img_bg.jpg.png" alt="" srcset="">
+                            <img src="images/image4.png.svg" alt="" srcset="">
                         </div>
                         <div class="boc-text">
                             <h2 class="spend text-center">Apprenez <br />
@@ -115,7 +115,7 @@ session_start() ;
                 <div class="col-12 col-md-4">
                     <div class="block-card">
                         <div class="image">
-                            <img src="images/img_bg.jpg.png" alt="" srcset="">
+                            <img src="images/image6.svg" alt="" srcset="">
                         </div>
                         <div class="boc-text">
                             <h2 class="spend text-center">Des cours<br />
@@ -129,7 +129,7 @@ session_start() ;
                 <div class="col-12 col-md-4">
                     <div class="block-card">
                         <div class="image">
-                            <img src="images/img_bg.jpg.png" alt="" srcset="">
+                            <img src="images/image3.png.svg" alt="" srcset="">
                         </div>
                         <div class="boc-text">
                             <h2 class="spend text-center">Enseignants<br />

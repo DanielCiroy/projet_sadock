@@ -57,6 +57,10 @@
         .deconnectAdmin:hover{
             color:#fff;
         }
+
+        .message{
+
+        }
     </style>
 </head>
 
@@ -77,65 +81,18 @@
     </header>
     <section class=" presents">
         <div class="texte">
-            <h2>Des cours 100% en ligne et un modèle pédagogique unique qui seront les clés de votre
-                réussite.</h2>
+        <?php
+                //Ensuite on affiche le contenu de la variable session
+                echo "<h2 class ='message'> Bonjour " .  $_SESSION['nom'] . "</h2>";   
+         ?>
+
+            <h2>Bienvenue sur l'espace d'administration ! <br/> Depuis cet espace, vous pouvez :Gérer les cours et les utilisateurs
+            </h2>
         </div>
         <div class="maphoto">
-            <img src="images/img_bg.jpg.png" alt="photo" srcset="" width="100%">
+            <img src="images/welcom.svg" alt="photo" srcset="" width="100%">
         </div>
 
-    </section>
-    <section class="container-fluid bg-light ">
-        <div class="container">
-            <h2 class="text-center pt-5 pb-2">ce que vous propose Initelematique open line</h2>
-            <p class="text-center pb-5">Avec Initelematique open line, découvrez une nouvelle façon
-                d'apprendre : votre
-                reussite c'est notre devoir</p>
-            <div class="row g-5">
-                <div class="col-12 col-md-4">
-                    <div class="block-card">
-                        <div class="image col-12 col-md-4">
-                            <img src="images/img_bg.jpg.png" alt="" srcset="">
-                        </div>
-                        <div class="boc-text">
-                            <h2 class="spend text-center">Apprenez <br />
-                                où que vous soyez</h2>
-                            <p class="text-center">Accédez à vos cours 100% en ligne à la maison, en
-                                ville, à la
-                                montagne... Partout !</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="block-card">
-                        <div class="image">
-                            <img src="images/img_bg.jpg.png" alt="" srcset="">
-                        </div>
-                        <div class="boc-text">
-                            <h2 class="spend text-center">Des cours<br />
-                                dynamiques</h2>
-                            <p class="text-center">plongez dns des cours interactifs et engageants,
-                                elaborés par des
-                                experts.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="block-card">
-                        <div class="image">
-                            <img src="images/img_bg.jpg.png" alt="" srcset="">
-                        </div>
-                        <div class="boc-text">
-                            <h2 class="spend text-center">Enseignants<br />
-                                Experts:</h2>
-                            <p class="text-center">Bénéficiez de l'expertise de nos instructeurs
-                                qualifiés lors de
-                                lapprentissage</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
 
     <?php

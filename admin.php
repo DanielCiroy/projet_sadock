@@ -10,6 +10,7 @@ if(isset($_POST['ok'])){
 
        if($nom_par_defaut==$nom_saisi && $mdpass_par_defaut==$mdpass_saisi){
          $_SESSION['mdpass']=$mdpass_saisi;
+         $_SESSION['nom']=$nom_saisi;
          header('location:accueilAdmin.php');
        }
        else{
