@@ -57,9 +57,9 @@
             ?>
             <form action="" method="POST">  <!--on ne mets plus rien au niveau de l'action , pour pouvoir envoyé les données  dans la même page -->
                 <label>Adresse Mail</label>
-                <input type="text" name="email">
+                <input type="text" name="email" required>
                 <label >Mots de Passe</label>
-                <input type="password" name="mdp">
+                <input type="password" name="mdp" required>
                 <input type="submit" value="connexion" name="boutton-connexion">
        </form>
        </section> 

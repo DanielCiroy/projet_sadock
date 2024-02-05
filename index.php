@@ -33,7 +33,7 @@
     <section class="presents">
         <div class="texte">
             <h2>Des cours 100% en ligne et un modèle pédagogique unique qui seront les clés de votre réussite.</h2>
-            <a href="#" class="action-btn2">connectez vous pour voir les cours</a>
+            <a href="connexion/index.php" class="action-btn2">connectez vous pour voir les cours</a>
         </div>
         <div class="maphoto">
             <img src="images/image2.png.svg" alt="photo" srcset="" width="100%">

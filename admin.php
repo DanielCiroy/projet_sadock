@@ -12,9 +12,10 @@ if(isset($_POST['ok'])){
          $_SESSION['mdpass']=$mdpass_saisi;
          $_SESSION['nom']=$nom_saisi;
          header('location:accueilAdmin.php');
+
        }
        else{
-        echo'mot de pass ou nom incorrect';
+        $erreur='mot de pass ou nom de l\'admin incorrect';
        }
     }
     else{
@@ -34,17 +35,29 @@ if(isset($_POST['ok'])){
     <title>Document</title>
 </head>
 <body>
+    <style>
+        .erreur{
+            color: red;
+            margin: 10px 0;
+            text-align: center;
+        }
+    </style>
     <?php
        include_once('header_no_btn.php');
     ?>
     <div class="header">
     <section>
         <h1>connexion</h1>
+        <?php 
+            if(isset($erreur)){// si la variable $erreur existe , on affiche le contenu ;
+                echo "<p class= 'erreur'>".$erreur."</p>"  ;
+            }
+            ?>
         <form action="" method="POST">
             <label>nom</label>
-            <input type="text" name="nom">
+            <input type="text" name="nom" required>
             <label>mot de pass</label>
-            <input type="password" name="mdpass">
+            <input type="password" name="mdpass" required>
             <input type="submit" value="connexion" name="ok">
         </form>
     </section>

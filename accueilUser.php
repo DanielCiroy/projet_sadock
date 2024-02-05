@@ -84,7 +84,7 @@ session_start() ;
             <h2>Bienvenu(e) sur Initelematique Open line!! </br>  Des cours 100% en ligne et un modèle pédagogique unique qui seront les clés de votre
                 réussite.
             </h2>
-            <a href="#" class="action-btn2"> voir les cours</a>
+            <a href="cours/cours.php" class="action-btn2"> voir les cours</a>
         </div>
         <div class="maphoto">
             <img src="images/image1.png.svg" alt="photo" srcset="" width="100%">

@@ -22,7 +22,7 @@
                 ?>
                 <p class="vide_message">Aucun cour Disponible.</p>
                 <div class="retour">
-                   <a href="../accueilAdmin.php" class="quiter"><i class="fa-sharp fa-solid fa-arrow-left">quitter</i></a>
+                   <a href="../accueilUser.php" class="quiter"><i class="fa-sharp fa-solid fa-arrow-left">quitter</i></a>
                 </div>
                 <?php
             }
@@ -35,7 +35,7 @@
                         <div><?=$row['description']?></div>
                     </div>
                     <div class="retour">
-                              <a href="../accueilAdmin.php" class="quiter"><i class="fa-sharp fa-solid fa-arrow-left">quitter</i></a>
+                              <a href="../accueilUser.php" class="quiter"><i class="fa-sharp fa-solid fa-arrow-left">quitter</i></a>
                     </div>
                 <?php
             }

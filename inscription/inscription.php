@@ -26,13 +26,13 @@
         <h2>inscription</h2>
         <form action="traitement_inscription.php" method="POST">
             <label>nom</label>
-            <input type="text" name="nom">
+            <input type="text" name="nom" required>
             <label>prenom</label>
-            <input type="text" name="prenom">
+            <input type="text" name="prenom" required>
             <label>email</label>
-            <input type="text" name="email">
+            <input type="text" name="email" required>
             <label>mot de pass</label>
-            <input type="password" name="mdp">
+            <input type="password" name="mdp" required>
             <input type="submit" value="m'inscrire" name="ok">
         </form>
     </section>
