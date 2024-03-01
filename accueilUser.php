@@ -3,6 +3,11 @@
 <?php 
 //On demare la session sur sur cette page 
 session_start() ;
+if(!$_SESSION['mdp'] && !$_SESSION['email'] ){
+    header('location: connexion/index.php');
+}
+
+
 ?>
 
 <!DOCTYPE html>
