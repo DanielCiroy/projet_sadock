@@ -83,7 +83,7 @@ if(!$_SESSION['mdp'] && !$_SESSION['email'] ){
         <div class="texte">
          <?php
                 //Ensuite on affiche le contenu de la variable session
-                echo "<p class ='message'> Bonjour " .  $_SESSION['nom'] . "</p>";   
+                echo "<p class ='message'> Bonjour ".$_SESSION['nom'] . "</p>";   
          ?>
             
             <h2>Bienvenu(e) sur Initelematique Open line!! </br>  Des cours 100% en ligne et un modèle pédagogique unique qui seront les clés de votre

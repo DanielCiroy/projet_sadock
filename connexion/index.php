@@ -3,10 +3,12 @@
    session_start() ;
   if(isset($_POST['boutton-connexion'])){ // Si on clique sur le boutton , alors :
     //Nous allons verifiér les informations du formulaire
-    if(isset($_POST['email']) && isset($_POST['mdp'])) { //On verifie ici si l'utilisateur a rentré des informations
+    if(isset($_POST['nom']) && isset($_POST['email']) && isset($_POST['mdp'])) { //On verifie ici si l'utilisateur a rentré des informations
       //Nous allons mettres l'email et le mot de passe dans des variables
+      $nom = $_POST['nom'] ;
       $email = $_POST['email'] ;
       $mdp = $_POST['mdp'] ;
+      
       $erreur = "" ;
        //Nous allons verifier si les informations entrée sont correctes
        //Connexion a la base de données
@@ -16,13 +18,14 @@
        $nom_base_données ="initelematique_open_line" ;
        $con = mysqli_connect($nom_serveur , $utilisateur ,$mot_de_passe , $nom_base_données);
        //requete pour selectionner  l'utilisateur qui a pour email et mot de passe les identifiants qui ont été entrées
-        $req = mysqli_query($con , "SELECT * FROM etudiants WHERE email = '$email' AND mdp ='$mdp' ") ;
+        $req = mysqli_query($con , "SELECT * FROM etudiants WHERE email = '$email' AND nom ='$nom' AND mdp ='$mdp' ") ;
         $num_ligne = mysqli_num_rows($req) ;//Compter le nombre de ligne ayant rapport a la requette SQL
         if($num_ligne > 0){
             header("Location:../accueilUser.php") ;//Si le nombre de ligne est > 0 , on sera redirigé vers la page bienvenu
             // Nous allons créer une variable de type session qui vas contenir l'email de l'utilisateur
             $_SESSION['email'] = $email ;
             $_SESSION['mdp']= $mdp;
+            $_SESSION['nom']=$nom;
         }else {//si non
             $erreur = "Adresse Mail ou Mots de passe incorrectes !";
         }
@@ -57,6 +60,8 @@
             }
             ?>
             <form action="" method="POST">  <!--on ne mets plus rien au niveau de l'action , pour pouvoir envoyé les données  dans la même page -->
+                <label>nom</label>
+                <input type="text" name="nom" required>
                 <label>Adresse Mail</label>
                 <input type="text" name="email" required>
                 <label >Mots de Passe</label>
