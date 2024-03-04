@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Projet initelematique</title>
 </head>
 
 <body>
@@ -43,7 +43,7 @@
     <section class="container-fluid bg-light ">
         <div class="container">
             <h2 class="text-center pt-5 pb-2">ce que vous propose Initelematique open line</h2>
-            <p class="text-center pb-5">Avec Initelematique open line, découvrez une nouvelle façon d'apprendre : votre reussite c'est notre devoir</p>
+            <p class="text-center pb-5">Avec Initelematique open line, découvrez une nouvelle façon d'apprendre : votre apprentissage c'est notre devoir</p>
             <div class="row g-5">
                 <div class="col-12 col-md-4">
                     <div class="block-card">
@@ -65,7 +65,7 @@
                         <div class="boc-text">
                             <h2 class="spend text-center">Des cours<br />
                                 dynamiques</h2>
-                            <p class="text-center">plongez dns des cours interactifs et engageants, elaborés par des experts.</p>
+                            <p class="text-center">plongez dans des cours interactifs et engageants, elaborés par des experts.</p>
                         </div>
                     </div>
                 </div>

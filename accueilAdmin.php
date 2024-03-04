@@ -86,7 +86,7 @@
                 echo "<h2 class ='message'> Bonjour " .  $_SESSION['nom'] . "</h2>";   
          ?>
 
-            <h2>Bienvenue sur l'espace d'administration ! <br/> Depuis cet espace, vous pouvez :Gérer les cours et les utilisateurs
+            <h2>Bienvenue sur l'espace d'administration ! <br/> Depuis cet espace, vous pouvez :Gérer les cours et les etudiants
             </h2>
         </div>
         <div class="maphoto">
