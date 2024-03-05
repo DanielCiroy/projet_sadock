@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liste photos</title>
+    <title>Liste des cours</title>
     <link rel="stylesheet" href="../gestion_des_cours/style.css">
 </head>
 <body>
